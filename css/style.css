@@ -1,0 +1,55 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+  transition: 0.3s;
+  width: 99.8%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.avatar {
+  width: 40%;
+  padding: 2px 16px;
+}
+
+.img-circle {
+  padding-top: 16px;
+  border-radius: 50%;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+@font-face {
+  font-family: "ArticleFont";
+  src: "fonts/gentleman_on_the_rainbow/Gentleman_on_the_Rainbow.ttf";
+}
+
+article {
+  padding: 15px;
+  /**font-family: "ArticleFont", Cursive;*/
+}
+
+.div-left {
+  width: 70%;
+  float: left;
+}
+
+.div-right {
+  margin-left: 30%;
+  /* Change this to whatever the width of your left column is*/
+}
+
+.dir{
+	float: left;
+	width:48%;
+	}
+	.esq{
+	float: right;
+	width: 48%;
+	}
