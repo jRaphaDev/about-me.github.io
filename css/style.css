@@ -1,7 +1,6 @@
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
-  transition: 0.3s;
-  width: 99.8%;
+  transition: background-color .25s,color .15s,box-shadow .15s,opacity .25s,filter .25s,border .15s;
 }
 
 .card:hover {
@@ -25,31 +24,16 @@
   height: auto;
 }
 
-@font-face {
-  font-family: "ArticleFont";
-  src: "fonts/gentleman_on_the_rainbow/Gentleman_on_the_Rainbow.ttf";
-}
-
-article {
-  padding: 15px;
-  /**font-family: "ArticleFont", Cursive;*/
-}
-
-.div-left {
-  width: 70%;
-  float: left;
-}
-
-.div-right {
-  margin-left: 30%;
-  /* Change this to whatever the width of your left column is*/
+article, aside, footer {
+  padding: 60px;
 }
 
 .dir{
-	float: left;
-	width:48%;
-	}
-	.esq{
-	float: right;
-	width: 48%;
-	}
+  float: left;
+  width:48%;
+}
+
+.esq{
+  float: right;
+  width: 48%;
+}
